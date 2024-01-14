@@ -1,3 +1,3 @@
 .idea/
-./data/ipynb_checkpoints/
+gaforecast/data/ipynb_checkpoints/
 __pycache__/

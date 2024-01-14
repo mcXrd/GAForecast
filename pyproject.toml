@@ -3,6 +3,10 @@ name = "GAForecast"
 version = "0.1.0"
 description = "Prediction library for tabular data powered by neural network."
 authors = ["Vaclav Matejka <matejka.vaclav@gmail.com>"]
+exclude = [
+    "gaforecast/data",
+    "gaforecast/tests"
+]
 
 [tool.poetry.dependencies]
 python = "^3.9 , <3.11"  # because you need Tensorflow and you need to install it on your own
