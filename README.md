@@ -44,9 +44,6 @@ In future updates, the library will include:
 ### 2) Support for multi-class classification.
 Please stay tuned for these upcoming enhancements.
 
-# Memory Usage
-When working with tables containing 70 features, approximately 7GB of GPU memory may be required during training. Training on a GPU is recommended for optimal performance.
-
 # License
 This library is provided under the MIT License.
 
