@@ -10,12 +10,12 @@ Additionally, having access to a GPU is highly recommended.
 Table with 70 features will require cca 7gb of GPU memory.
 
 ## Installation
-You can install the GAForecast library from pypi:  {url}
+You can install the GAForecast library from pypi:  https://pypi.org/project/GAForecast/
 
 
 ## Usage
 ```
-from GAForecast.models import GAForecastBinaryClassifier
+from gaforecast.models.binary_classifier import GAForecastBinaryClassifier
 
 # Create an instance of the GAForecastBinaryClassifier
 clf = GAForecastBinaryClassifier()
