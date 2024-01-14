@@ -1,4 +1,4 @@
-from gaforecast.models.gaforecast import GAForecastBinaryClassifier
+from gaforecast.models.binary_classifier import GAForecastBinaryClassifier
 import pandas as pd
 import os
 from sklearn.metrics import accuracy_score
