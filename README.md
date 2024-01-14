@@ -1,6 +1,9 @@
 # GAForecast
 This Python library is designed for making predictions on tabular data using a neural network based on ResNet50. The library's strength lies in its ability to excel in predicting time series data presented in a tabular format, where each row contains multiple historical time points.
 
+## Source code
+https://github.com/mcXrd/GAForecast
+
 ## Requirements
 Prior to utilizing this library, please ensure that you have installed TensorFlow on your system.
 

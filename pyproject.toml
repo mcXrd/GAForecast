@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "GAForecast"
-version = "0.2.1"
+version = "0.2.2"
 description = "Prediction library for tabular data powered by neural network."
 authors = ["Vaclav Matejka <matejka.vaclav@gmail.com>"]
 exclude = [
