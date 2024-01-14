@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "GAForecast"
-version = "0.2.0"
+version = "0.2.1"
 description = "Prediction library for tabular data powered by neural network."
 authors = ["Vaclav Matejka <matejka.vaclav@gmail.com>"]
 exclude = [
@@ -30,7 +30,3 @@ mypy="*"
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
-
-
-[metadata]
-description = "A short description of your Python package"
