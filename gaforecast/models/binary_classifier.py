@@ -140,8 +140,6 @@ class GAForecastBinaryClassifier(BaseEstimator):
             metrics=["accuracy"],
         )
 
-        # Optionally, you can print a summary of the models architecture
-        model.summary()
         return model
 
     def _make_predictions_binary(self, predictions: np.ndarray) -> np.ndarray:
