@@ -22,7 +22,7 @@ def _prepare_data(train_or_test_word, frac=0.02):
 def test_fit_and_predict():
     train_data, train_labels = _prepare_data("train")
     test_data, test_labels = _prepare_data("test")
-    model = GAForecastBinaryClassifier(epochs=2)
+    model = GAForecastBinaryClassifier(epochs=20)
     model.fit(train_data, train_labels)
 
     predictions = model.predict(test_data)
